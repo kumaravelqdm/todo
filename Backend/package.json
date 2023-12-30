@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "sct todo task",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node_modules/.bin/babel-node src/index.js"
+  },
+  "author": "Kumaravel Pazhani",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.8.0",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/mongodb": "^8.0.0",
+    "@fastify/sensible": "^5.5.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.2",
+    "fastify-multer": "^2.0.3",
+    "fastify-plugin": "^4.5.1",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6"
+  }
+}

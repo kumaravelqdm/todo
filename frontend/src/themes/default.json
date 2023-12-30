@@ -1,0 +1,113 @@
+{
+    "direction": "ltr",
+    "typography": {
+      "fontFamily": "regular"
+    },
+    "components": {
+      "MuiButton": {
+        "styleOverrides": {
+          "root": {
+            "textTransform": "capitalize",
+            "fontWeight": "medium"
+          }
+        }
+      },
+      "MuiOutlinedInput": {
+        "styleOverrides": {
+          "root": {
+            "borderRadius": "4px",
+            "marginTop": 4
+          }
+        }
+      }
+    },
+    "palette": {
+      "mode": "light",
+      "primary": {
+        "light": "#335291",
+        "main": "#002776",
+        "dark": "#001b52",
+        "contrastText": "#fff",
+        "bgColor": "#EEF1FD"
+      },
+      "secondary": {
+        "light": "#e6b136",
+        "main": "#E09E04",
+        "dark": "#9c6e02",
+        "contrastText": "#fff"
+      },
+      "success": {
+        "light": "#D4FFE5",
+        "main": "#21C262",
+        "dark": "#178744",
+        "contrastText": "#fff"
+      },
+      "warning": {
+        "light": "#ffac3e",
+        "main": "#FF980E",
+        "dark": "#b26a09",
+        "contrastText": "#fff"
+      },
+      "error": {
+        "light": "#FDE6E6",
+        "main": "#FB4E4E",
+        "dark": "#d32f2f",
+        "contrastText": "#fff"
+      },
+      "text": {
+        "primary": "#141414",
+        "secondary": "#4D4D4D",
+        "disabled": "#d32f2f",
+        "tertiary": "#808080",
+        "placeHolder": "#CACACA",
+        "green": "#2ECA45",
+        "grey": "#E4E8EE",
+        "lightGrey": "#F2F2F2",
+        "darkRed": "#F56666",
+        "labelText": "#323232",
+        "black":"#323232"
+  
+      },
+      "background": {
+        "primary": "#F9F9F9",
+        "secondary": "#fff",
+        "shadow": "#00000029",
+        "border": "#EBEBEB",
+        "taskCard": "#EFEAFE",
+        "chip": "#DBD5F2",
+        "hover": "#EBEBEB",
+        "borderInput": "rgba(0, 0, 0, 0.23)",
+        "rejected": "#FADCDC",
+        "approved": "#DCFAE8",
+        "lightGreen": "#FAFAFA",
+        "profileCard": "#F1F6FF",
+        "highLight": "#EEF3FF",
+        "statusCard": "#FBDDDD",
+        "shadowColor": "#0000000D",
+        "dateBg": "#E3ECFF"
+      },
+      "snackBar": {
+        "successColor": "#21C262",
+        "successBgColor": "#EBFFF3",
+        "successHoverColor": "#CFEFDE",
+        "errorColor": "#F56666",
+        "errorBgColor": "#FDE6E6",
+        "errorHoverColor": "#F5E1E1",
+        "warningColor": "#FF980E",
+        "warningBgColor": "#FFF4E6",
+        "pendingBgColor": "#F0F5FD",
+        "pendingColor": "#1E5ECB",
+        "pendingHoverColor": "#DAE4F3"
+      },
+      "cardButton": {
+        "viewBg": "#E8F0FF",
+        "viewColor": "#002776",
+        "approvedColor": "#10AE4F",
+        "approvedBg": "#E9FAF1",
+        "rejectedBg": "#FFEAEA",
+        "rejectedColor": "#EA5555",
+        "approve": "#3CC574"
+      }
+    }
+  }
+  
